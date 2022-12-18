@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="563.143" height="163.493" viewBox="0 0 563.143 163.493">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_3" data-name="Rectángulo 3" width="163.493" height="163.493" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_1" data-name="Rectángulo 1" width="107.999" height="106.667" fill="#022c43"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectángulo_2" data-name="Rectángulo 2" width="149.901" height="131.123" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_3950" data-name="Grupo 3950" transform="translate(-188 -126)">
+    <g id="Grupo_7" data-name="Grupo 7" transform="translate(188 126)" clip-path="url(#clip-path)">
+      <path id="Trazado_1" data-name="Trazado 1" d="M38.18,355.015a4.212,4.212,0,0,1,.344-1.675q-.19.845-.344,1.675" transform="translate(-24.588 -227.547)"/>
+      <g id="Grupo_3" data-name="Grupo 3" transform="translate(55.494 56.826)" style="isolation: isolate">
+        <g id="Grupo_2" data-name="Grupo 2">
+          <g id="Grupo_1" data-name="Grupo 1" clip-path="url(#clip-path-2)">
+            <path id="Trazado_2" data-name="Trazado 2" d="M247.409,159.621q.7,1.84,1.3,3.72a4.169,4.169,0,0,0,3.443,2.941l8.071,1.184a4.254,4.254,0,0,1,3.659,4.233v25.682a4.254,4.254,0,0,1-3.659,4.233l-8.071,1.184a4.171,4.171,0,0,0-3.443,2.941,69.119,69.119,0,0,1-4.52,10.9,4.227,4.227,0,0,0,.358,4.484l4.878,6.564a4.217,4.217,0,0,1-.395,5.56l-18.186,18.186a4.216,4.216,0,0,1-5.56.395l-6.564-4.878a4.228,4.228,0,0,0-4.484-.359,69.065,69.065,0,0,1-10.9,4.519,4.171,4.171,0,0,0-2.941,3.444l-1.184,8.07a4.254,4.254,0,0,1-4.232,3.659H169.289a4.255,4.255,0,0,1-4.233-3.659l-1.184-8.07a4.172,4.172,0,0,0-2.941-3.444q-2.563-.805-5.053-1.822c20.84-9.35,46.285-29.955,57.237-59.928l24.972-5.567,9.321-24.177Z" transform="translate(-155.879 -159.62)" fill="#022c43" fill-rule="evenodd"/>
+          </g>
+        </g>
+      </g>
+      <g id="Grupo_6" data-name="Grupo 6" transform="translate(0 0)" style="isolation: isolate">
+        <g id="Grupo_5" data-name="Grupo 5">
+          <g id="Grupo_4" data-name="Grupo 4" clip-path="url(#clip-path-3)">
+            <path id="Trazado_3" data-name="Trazado 3" d="M102.946,15.172a72.666,72.666,0,0,1,10.9,4.52,4.155,4.155,0,0,0,4.484-.359l6.564-4.878a4.217,4.217,0,0,1,5.56.394l18.186,18.186a4.217,4.217,0,0,1,.395,5.56L144.16,45.16a4.23,4.23,0,0,0-.359,4.484c1.039,2.016,1.994,4.092,2.843,6.214L134.1,39.653l-8.865,23-19.5,4.218L94.694,47.034l8.864-23-21.32,4.615-9.446,24.5L86.744,76.772c-6.572,57.5-99.944,82.392-47.392,8.782a95.983,95.983,0,0,0-20.447,26.721,73.4,73.4,0,0,1-3.733-9.328A4.17,4.17,0,0,0,11.73,100L3.659,98.821A4.254,4.254,0,0,1,0,94.588V68.906a4.255,4.255,0,0,1,3.659-4.233L11.73,63.49a4.169,4.169,0,0,0,3.443-2.941,69.115,69.115,0,0,1,4.52-10.9,4.155,4.155,0,0,0-.359-4.484L14.456,38.6a4.217,4.217,0,0,1,.394-5.56L33.036,14.85a4.217,4.217,0,0,1,5.56-.394l6.564,4.878a4.211,4.211,0,0,0,4.52.359,70.754,70.754,0,0,1,10.869-4.52,4.17,4.17,0,0,0,2.941-3.443l1.184-8.071A4.255,4.255,0,0,1,68.906,0H94.588a4.254,4.254,0,0,1,4.233,3.659L100,11.729a4.17,4.17,0,0,0,2.941,3.443Z" transform="translate(0 0)" fill="#ffab02" fill-rule="evenodd"/>
+          </g>
+        </g>
+      </g>
+      <path id="Trazado_4" data-name="Trazado 4" d="M129.168,110.349l19.5-4.218,8.865-23,13.046,16.855-9.445,24.5-24.972,5.567C120.606,172.627,75.807,196.3,56.5,195.664h0c-30.113,1.662-25.11-37.354,6.282-66.631-52.552,73.609,40.82,48.716,47.391-8.782L96.223,96.631l9.446-24.5,21.32-4.614-8.865,23Z" transform="translate(-23.431 -43.481)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+    <g id="Grupo_12" data-name="Grupo 12" transform="translate(375.143 156.499)">
+      <text id="Two_Guys_REPARACIONES" data-name="Two Guys 
+REPARACIONES" transform="translate(0 41)" fill="#022c43" font-size="42" font-family="Montserrat-ExtraBold, Montserrat" font-weight="800" letter-spacing="0.045em"><tspan x="0" y="0">TWO GUYS </tspan><tspan x="0" y="40">REPARACIONES</tspan></text>
+      <text id="WEBSITE_COLOMBIA" data-name="WEBSITE COLOMBIA" transform="translate(1.889 100.748)" fill="#022c43" font-size="16" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.415em"><tspan x="0" y="0">WEBSITE COLOMBIA</tspan></text>
+    </g>
+  </g>
+</svg>

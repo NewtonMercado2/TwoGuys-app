@@ -1,0 +1,526 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 100%;
+    clear: both;
+    position: fixed;
+    top: 0;
+}
+.menu{
+    margin: 15px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo{
+    background: transparent url('img/Grupo 13.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    float:left;
+}
+nav {
+    float: right;
+}
+nav ul li {
+    list-style: none;
+    padding: 5px 20px;
+    float: left;
+    position: relative;
+    color: #022C43;
+    font: normal normal 600 18px/22px 'Montserrat', sans-serif;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+nav ul li a{
+    text-decoration: none !important;
+    color: #022C43;
+    transition: all 0.3s;
+}
+
+nav ul li a:hover{
+    color: #FFAB02;
+}
+
+nav ul li a::before {
+    content: '';
+    display: flex;
+    width: 0%;
+    background:#FFAB02;
+    height: 3px;
+    top: 28px;
+    position: relative;
+    margin: auto;
+    transition: all 0.3s;
+}
+
+nav ul li a:hover::before {
+    width: 50%;
+}
+
+.hero{
+    background-image:url('  /imágenes/hero.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content_hero {
+    width: 1366px;
+    margin: auto;
+    padding-left: 10px;
+}
+
+.content_hero h1{
+    color:#FFFFFf;
+    font-size: 63px;
+}
+
+.content_hero p{
+    color: white;
+    font-size: 22px;
+}
+.info{
+    padding: 15px 45px;
+    margin: 20px 0px;
+    background: #FFAB02;
+    border: none !important;
+    color: white;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1;
+    transition: all .2s ease-in-out; 
+}
+
+.content_hero .info:hover{
+    transform: scale(1.1); 
+}
+
+.nosotros {
+    width: 1366px;
+    margin: auto;
+    padding-left: 10px;
+    height: 55vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0;
+    width: 50%;
+    gap: 15px;
+}
+
+.about .subtitle {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    gap: 10px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.about .subtitle hr{
+    border: 1px solid #FFAB02;
+    width: 90px;
+}
+
+.nosotros img {
+    margin-top: 15px;
+    width: 75%;
+    float: right;
+}
+
+.cont_serv{
+    margin-bottom: 100px;
+}
+.cont_title{
+    background-color: #022C43;
+    margin:auto;
+    height: 25vh;
+    display: flex;
+}
+
+
+.cont_titleblue{
+    margin:auto;
+    height: 15vh;
+    color: #002440;
+    text-align: center;
+}
+.cont_titleblue h1{
+    font-size: 65px;    
+    padding-top: 50px;
+}
+
+.cont_title h1{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 65px;    
+    padding-bottom: 50px;
+}
+
+.cont_boxserv{
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.box_serv{
+    width: 25%;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px #0087F326;
+    margin-top: -40px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #002440;
+}
+
+.box_serv img{
+    width: 54px;
+    height: 54px;
+    margin-bottom: 20px;
+}
+
+.box_serv p{
+    font-weight: 400;
+    font-size: 14px; 
+    padding: 0 25px;   
+}
+
+
+.swiper-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.gallery-inst{
+    max-width: 1366px;
+    margin: auto;
+    margin-bottom: 65px;
+}
+
+.gallery-inst img{
+    width: 340px;
+}
+
+footer{
+    background-color: #002440;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+/*REGISTER PAGE*/
+
+
+[data-tab-content] {
+    display: none;
+  }
+  
+  .active[data-tab-content] {
+    display: block;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul.tabs{
+    margin-top: 25px;
+  }
+
+  li.tab {
+    padding: 10px;
+  }
+
+  
+  
+  li.tab.active {
+    background-color: #FFAB02;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 8px;
+    
+  }
+
+  li.tab{
+    background-color: #002440;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 8px;
+  }
+  
+  li.tab{
+    cursor: pointer;
+  }
+  li.tab:hover {
+    background-color: #FFAB02;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 8px;
+    
+  }
+  
+  .tab-content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+div#cliente {
+    background: white;
+}
+
+
+div#trabajador {
+    background: white;
+}
+
+div#admin {
+    background: white;
+}
+
+.tablas{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.registra .cont_title{
+    height: 50vh;
+    padding-top: 6em;
+}
+
+
+.cont_forms{
+    display: flex;
+    flex-direction: row;
+}
+
+.form h4{
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    
+}
+.form input{
+    width: 100%;
+    padding: 8px 12px;
+    background: transparent;
+    border: 1px solid #FFAB02;
+    border-radius: 8px;
+    color: white !important;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.form{
+    width: 470px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    padding: 45px 35px;
+    background: #002440;
+    gap: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 40px #0087F326;
+
+}
+
+.formularios p{
+    color: black !important;
+}
+.nombreusuario{
+    color:#FFFFFf;
+    font-size: 40px;
+    align-items: center;
+}
+/*CONTACTENOS PAGE*/
+.tab-content-contacto{
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 60vh;
+}
+.form-contactenos{
+    width: 700px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    padding: 45px 35px;
+    background: #002440;
+    gap: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 40px #0087F326;
+
+}
+.form-contactenos input{
+    width: 100%;
+    padding: 8px 12px;
+    background: transparent;
+    border: 1px solid #FFAB02;
+    border-radius: 8px;
+    color: white !important;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.mensaje{
+    width: 100%;
+    padding: 8px 12px;
+    background: transparent;
+    border: 1px solid #FFAB02;
+    border-radius: 8px;
+    color: white !important;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 100px;
+}
+
+
+/* DASHBOOARD CLIENTES  */ 
+
+.dashboard{
+    max-width: 1366px;
+    margin: auto;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    padding: 2em 2em;
+    background: white;
+    box-shadow: 0px 0px 40px #0087f326;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img_car {
+    width: 50%;
+}
+
+.img_car img {   max-width: 100%;
+}
+
+.img_car p{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.img_car .estado_vehi{
+    color: #7ECF2D;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+.options .saludo{
+    margin-bottom: 15px;
+}
+
+
+details {
+    margin: 0 auto ;
+    margin-bottom: .5rem;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 540px;
+  }
+  
+  summary {
+    padding: 1rem;
+    display: block;
+    color: #022C43;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-left: 2.2rem;
+    position: relative;
+    cursor: pointer;
+    border-radius: 15px;
+    border: solid 1px #022C43;
+  }
+  
+  summary:before {
+    content: '';
+    border-width: .4rem;
+    border-style: solid;
+    border-color: transparent transparent transparent #022C43;
+    position: absolute;
+    top: 18px;
+    left: 32rem;
+    transform: rotate(0);
+    transform-origin: .2rem 50%;
+    transition: .25s transform ease;
+  }
+  
+  details[open] > summary:before {
+    transform: rotate(90deg);
+  }
+  
+  details summary::-webkit-details-marker {
+    display:none;
+  }
+  
+  details > ul {
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+  }
+  
+  .details-expanded {
+      padding: 0 2rem;
+  }
+  
+
+  .options .info{
+    width: 540px;
+  }
+
+  .options p{
+    margin-bottom: 15px;
+    margin-top: 19px;
+    padding-bottom: 1em;
+    border-bottom: 1px solid;
+  }
